@@ -10,6 +10,7 @@ import { TiWeatherPartlySunny } from "react-icons/ti";
 import { IoMdSearch } from "react-icons/io";
 import axios from 'axios';
 
+
 interface WeatherDataProps {
   name: string;
 
