@@ -73,7 +73,6 @@ function DisplayWeather() {
   const fetchWeatherData = async (city: string) => {
     const currentTime = Date.now();
 
-    // Kontrollerar om det har gått mindre än 60 sekunder sedan den senaste framgångsrika förfrågan
     if (lastRequestTime && (currentTime - lastRequestTime < 60000)) {
       console.log("Använder cachad data på grund av ratelimit.");
       if (cachedWeatherData) {
