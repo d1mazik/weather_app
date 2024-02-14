@@ -136,10 +136,10 @@ function DisplayWeather() {
         iconColor = "#102C57";
         break;
 
-        case "Snow":
-          iconElement = <FaRegSnowflake/>;
-          iconColor = "#FFFFFF";
-          break;
+      case "Snow":
+        iconElement = <FaRegSnowflake/>;
+        iconColor = "#FFFFFF";
+        break;
 
       default:
         iconElement = <TiWeatherPartlySunny />;
