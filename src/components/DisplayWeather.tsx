@@ -4,6 +4,7 @@ import { TbGps } from "react-icons/tb";
 import { WiHumidity } from "react-icons/wi";
 import { BsFillCloudFog2Fill, BsWind } from "react-icons/bs";
 import { BsFillSunFill, BsCloudyFill, BsFillCloudRainFill } from 'react-icons/bs';
+import { IoIosThunderstorm } from "react-icons/io";
 import { FaRegSnowflake } from "react-icons/fa";
 import { TiWeatherPartlySunny } from "react-icons/ti";
 import { IoMdSearch } from "react-icons/io";
@@ -118,6 +119,7 @@ function DisplayWeather() {
         iconElement = <BsFillSunFill />;
         iconColor = "#FFC436";
         break;
+
       case "Clouds":
         iconElement = <BsCloudyFill />;
         iconColor = "#102C57";
@@ -126,6 +128,11 @@ function DisplayWeather() {
       case "Mist":
         iconElement = <BsFillCloudFog2Fill />;
         iconColor = "#279EFF";
+        break;
+
+      case "Thunderstorm":
+        iconElement = <IoIosThunderstorm />;
+        iconColor = "#102C57";
         break;
 
         case "Snow":
