@@ -183,7 +183,6 @@ export const WidgetCompactView = styled.div`
   }
 `;
 
-
 export const BackButton = styled.button`
   cursor: pointer;
   margin: 20px auto;
