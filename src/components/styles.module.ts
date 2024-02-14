@@ -22,7 +22,6 @@ export const MainWrapper = styled.div`
     flex-direction: column;
   }
 
-
   .searchArea {
     position: relative;
     margin-top: 20px;
