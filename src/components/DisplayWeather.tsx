@@ -166,6 +166,7 @@ function DisplayWeather() {
     fetchData();
   }, [fetchCurrentWeather]);
 
+  
   return (
     <>
       {isCompactView ? (
